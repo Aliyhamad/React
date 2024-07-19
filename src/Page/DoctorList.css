@@ -1,0 +1,74 @@
+.doctor-table-container {
+  font-family: Arial, sans-serif;
+  margin-left: -05.0%; /* Center the container horizontally */
+  width: 112.0%; /* Adjust the width to take the full browser width */
+  margin-top: 100.0px;
+  position: relative; /* Ensure positioning context */
+  height: 500px; /* Set a fixed height for the container */
+}
+
+.doctor-table-container h2 {
+  text-align: center;
+  margin: 0; /* Ensure no extra margin at the top */
+  position: relative; /* Keep it in place */
+  top: 0; /* Position it at the top within its relative container */
+}
+
+.add-doctor {
+  background-color: #2196F3;
+  color: white;
+  height: 40px;
+  border-color: #2196F3;
+  border-radius: 12%;
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.doctor-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 0; /* Remove any margin at the top of the table */
+}
+
+.doctor-table th, .doctor-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.doctor-table th {
+  background-color: #f2f2f2;
+  text-align: center;
+}
+
+.doctor-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.doctor-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.doctor-table button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 2px 1px;
+  cursor: pointer;
+  border-radius: 8%;
+}
+
+.doctor-table button:hover {
+  background-color: #45a049;
+}
+
+.doctor-table button:last-child {
+  background-color: #f44336;
+}

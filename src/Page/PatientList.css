@@ -1,0 +1,77 @@
+.patient-table-container {
+  font-family: Arial, sans-serif;
+  margin-left: -12.0%; /* Center the container horizontally */
+  width: 130.0%; /* Adjust the width to take the full browser width */
+  margin-top: 100.0px;
+  position: relative; /* Ensure positioning context */
+  height: 500px; /* Set a fixed height for the container */
+  margin-bottom: 33px;
+
+}
+
+.patient-table-container h2 {
+  text-align: center;
+  margin: 0; /* Ensure no extra margin at the top */
+  position: relative; /* Keep it in place */
+  top: 0; /* Position it at the top within its relative container */
+}
+
+.add-patient {
+  background-color: #2196F3;
+  color: white;
+  height: 40px;
+  border-color: #2196F3;
+  border-radius: 12%;
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.patient-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 0; /* Remove any margin at the top of the table */
+}
+
+.patient-table th, .patient-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.patient-table th {
+  background-color: #f2f2f2;
+  text-align: center;
+}
+
+.patient-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.patient-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.patient-table button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 2px 1px;
+  cursor: pointer;
+  border-radius: 8%;
+}
+
+.patient-table button:hover {
+  background-color: #45a049;
+}
+
+.patient-table button:last-child {
+  background-color: #f44336;
+}
+

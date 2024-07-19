@@ -1,0 +1,105 @@
+.login-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-form form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.image-container {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+.form-container {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.input-group {
+    width: 100%;
+}
+
+.input-group label {
+    margin-bottom: 8px;
+    display: block;
+    text-align: left;
+}
+
+.input-username, .input-userPassword {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.login-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 4px;
+}
+
+.login-button:hover {
+    opacity: 0.8;
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+}
+
+.form-container label {
+    display: block;
+    text-align: left;
+}
+
+.link-password {
+    text-decoration: none;
+    color: #2196F3;
+}
+
+.link-password:hover {
+    text-decoration: underline;
+}
+
+.link-info {
+    float: right;
+    text-decoration: none;
+    color: #2196F3;
+}
+
+.link-info:hover {
+    text-decoration: underline;
+}
+
+.password-reset {
+    display: block;
+    margin-top: -8px;
+    text-align: left;
+}
+.login_title, strong {
+    font-size: 30px;
+}

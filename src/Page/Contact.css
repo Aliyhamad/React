@@ -1,0 +1,32 @@
+/* contact.css */ 
+.contact-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact-list li {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.contact-list li img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.contact-list li a {
+    color: #333;
+    text-decoration: none;
+}
+
+.contact-list li a:hover {
+    text-decoration: underline;
+}
+.contact-container p{
+    font-family: 'Times New Roman';
+    font-size: 20px;
+}
+.contact-container h1{
+    font-family: 'Times New Roman';
+}

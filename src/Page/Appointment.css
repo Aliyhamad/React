@@ -1,0 +1,49 @@
+.appointment {
+  background: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  width: 550px;
+  margin: 0 auto;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#appointmentForm {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.input-disease,
+.input-appointmentDate,
+.select-doctor,
+.select-appointmentTime {
+  padding: 7px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 95%;
+}
+
+.submit-button {
+  padding: 10px;
+  background-color: #04AA6D;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.submit-button:hover {
+  background-color: #045f4d;
+
+}

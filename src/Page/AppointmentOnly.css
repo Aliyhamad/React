@@ -1,0 +1,65 @@
+.appointment-table-container {
+    font-family: Arial, sans-serif;
+    margin-left: -33.0%; /* Center the container horizontally */
+    width: 180.0%; /* Adjust the width to take the full browser width */
+    margin-top: 100.0px;
+    position: relative; /* Ensure positioning context */
+    height: 500px;
+    margin-bottom: 20px;
+  }
+  
+  .appointment-table-container h2 {
+    text-align: center;
+    margin-top: 0;
+  }
+  
+  .appointment-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 0;
+  }
+  
+  .appointment-table th, .appointment-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .appointment-table th {
+    background-color: #f2f2f2;
+    text-align: center;
+  }
+  
+  .appointment-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .appointment-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .appointment-table button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 2px 1px;
+    cursor: pointer;
+    border-radius: 8%;
+  }
+  
+  .appointment-table button:hover {
+    background-color: #45a049;
+  }
+  
+  .appointment-table button.delete {
+    background-color: #f44336;
+  }
+  
+  .appointment-table button.delete:hover {
+    background-color: #e53935;
+  }
+  

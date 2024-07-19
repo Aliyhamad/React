@@ -1,0 +1,39 @@
+.doctor-table-container {
+    font-family: Arial, sans-serif;
+    margin-left: -5%; /* Center the container horizontally */
+    width: 112%; /* Adjust the width to take the full browser width */
+    margin-top: 100px;
+    position: relative; /* Ensure positioning context */
+    height: 500px; /* Set a fixed height for the container */
+  }
+
+  .doctor-table-container h2 {
+    text-align: center;
+    margin: 0; /* Ensure no extra margin at the top */
+    position: relative; /* Keep it in place */
+    top: 0; /* Position it at the top within its relative container */
+  }
+
+  .doctor-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 0; /* Remove any margin at the top of the table */
+  }
+
+  .doctor-table th, .doctor-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+
+  .doctor-table th {
+    background-color: #f2f2f2;
+    text-align: center;
+  }
+
+  .doctor-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+
+  .doctor-table tr:hover {
+    background-color: #f1f1f1;
+  }
